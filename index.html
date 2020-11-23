@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+
+<!--Created 11/20/2020 16:23:59 PST-->
+<html>
+	<head>
+		<title>home</title>
+		<meta http-equiv="author" content="Jeffrey Wang"> 
+		<meta name="description" content="A site for rubbing fluffy creatures to warm your heart &lt3">
+	</head>
+	<body>
+		<h1>Welcome to <strong><ins>Giving A Belly Rub</ins></strong></h1>
+		<hr/>
+		<img src="images/doggy_beg.jpg" alt="Dog begging for a belly rub" width="100" height="100" id="home_picture">
+		<p><em>Giving a Belly Rub</em> is dedicated to making others smile whenever life is giving them a rough day. No matter who you are, 
+		everyone can't help but feel happy at giving a good ole belly rub to one our own <b>sweet</b> animal dwellers. 
+		Paetrons will tell you that spending a few moments a day here will make your day shine a <s>little</s> <ins>lot</ins> brighter.</p>
+
+		<div class="Important">Please remember to be gentle to our companions. So many belly rubs a day can make them 
+			very sleepy.
+		</div>
+
+		<h2 id="Instructions">How To give a belly rub</h2>
+		<ol>
+			<li>First knock on the door of a companion of your choice. <b>It's rude to try to give a belly rub to a companion that 
+				doesn't feel like having belly rubs.</b> <i>Some companions don't like belly rubs at all. It can be very sensitive for them :(.
+			</i></li><br />
+			<li>
+				If a companion allows you to approach them. <b>Great!!!</b> Simply kneel down right next next to them so they can feel safe :). 
+			</li><br /> 
+			<li>
+				Gently place your on your companion's belly, preferably where there's the most fur. Slowly stroke their belly from top to bottom and give
+				them the most amount of love you possibly can. 
+			</li><br /> 
+			<li>
+				When you're done, don't forget to give your companion a kiss and say goodbye. :). 
+			</li>
+		</ol>
+
+		<h2 id="companions">Our companions</h2>
+		<!--Using Definition List to list our companions-->
+		<dl> 
+			<dt><strong>Drew the Dog</strong></dt><br/>
+			<dd>Drew is a patient and serene Husky that will listen to all your problems. <br/> 
+			<label name="companion_link">Click <a href="dog.html">here</a> to meet Drew</label></dd>
+			<br/>
+			<dt><strong>Cody the cat</strong></dt><br/>
+			<dd>Cody is a playful munchkin that loves to laugh with you and always looks seeing you happy. <br/> 
+			<label name="companion_link">Click <a href="cat.html">here</a> to meet Cody</label></dd>
+			<br/>
+			<dt><strong>Bip the Bunny</strong></dt><br/>
+			<dd>Bip is a anxious and frightful bunny that really wants a hug. Please hold her tight. <br/> 
+			<label name="companion_link">Click <a href="bunny.html">here</a> to meet Bip</label></dd>
+			<br/>
+			<dt><strong>Francis the fox</strong></dt><br/>
+			<dd>Francis is a trickster. He'll entertain you with so much fun, but he can be naughty. <span id="warnings"><i>So watch out</i></span></span>. <br/> 
+			<label name="companion_link">Click <a href="foxy.html">here</a> to meet Francis</label></dd>
+			<br/>
+			<dt><strong>Cindy the Cabybara</strong></dt><br/>
+			<dd>Cindy is loyal and wise--as any cabybara would be. Come meet her if you need a warm embrace. <br/> 
+			<label name="companion_link">Click <a href="capybara.html">here</a> to meet Cindy</label></dd>
+		</dl>
+		<img src=></img>
+
+		<h2>Contact Us</h2>
+		<form id="contact_message", action="review.php", method="GET">
+			<fieldset>
+				<legend>Contact Info</legend>
+				<label>Name: <input type="text" name="name" size="30" max="100" required="required"></label> <br/>
+				<label>Email: <input type="email" name="Email" size="30" max="100" required="required"></label>
+			</fieldset>
+			<fieldset>
+				<legend>Contact Message</legend>
+				<label>Message: <textarea col="50" row="10" max="500" required="required"></textarea></label>
+				<br/><br />
+				<input type="submit" value="submit" >
+			</fieldset>		
+		</form> 
+	</body>
+</html>
